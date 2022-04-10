@@ -1,0 +1,5 @@
+What if I added an already tracking file in gitignore? Will git stop tracking it?
+- No, it will keep tracking it. (Changes to be committed: <file in .gitignore>)
+
+Why?
+- Because it has already been added to the git index.

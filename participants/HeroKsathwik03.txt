@@ -1,0 +1,8 @@
+No, git will keep tracking it. Because it has already been added to the git index.
+
+To stop tracking a file you need to remove it from the index. This can be achieved with this command.
+
+git rm --cached <file>
+If you want to remove a whole folder, you need to remove all files in it recursively.
+
+git rm -r --cached <folder>
